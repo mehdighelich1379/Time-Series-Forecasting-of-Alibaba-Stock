@@ -43,7 +43,7 @@ Each notebook trains two separate models to predict one specific column, given a
 - X: All columns [Open, High, Low, Close, Volume]
 - y: Only one of the columns (Close, High, Low, Open)
 - Scaler: MinMaxScaler
-- Window size: 60 days
+- Window size: 30 days
 
 #### 🔸 Architectures Compared:
 
